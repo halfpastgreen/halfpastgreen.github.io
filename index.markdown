@@ -1,8 +1,8 @@
 ---
 layout: home
 ---
-				<div id="featured-container">
-			<div class="flexslider">
+<div id="featured-container">
+<div class="flexslider">
           			<ul class="slides">
 										<li>
 												<a href="/2013/11/28/greening-australia-welcomes-everyone/" rel="bookmark" title="Greening Australia Welcomes Everyone"><img width="300" height="336" src="/wp-content/uploads/2013/11/greening-australia-sm.jpg" class="attachment-slider-thumb wp-post-image" alt="Greening Australia Welcomes Everyone" /></a>
