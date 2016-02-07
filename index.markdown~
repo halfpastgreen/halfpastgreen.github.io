@@ -1,25 +1,6 @@
 ---
-layout: default
+layout: home
 ---
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-
-{% include head.html %}
-
-<body class="home blog custom-background">
-
-<div id="site">
-	
-{% include top-nav.html %}
-
-	<div id="wrapper">
-				<div id="inner-wrapper">
-			<div id="content">
-
-{% include header.html %}
-
-<div id="main-home">
-	<div id="home-left">
 				<div id="featured-container">
 			<div class="flexslider">
           			<ul class="slides">
