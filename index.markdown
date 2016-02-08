@@ -48,11 +48,9 @@ layout: home
 					</li>
 									</ul>
 			</div><!--flexslider-->
-		</div><!---featured-container-->
-		
+		</div><!--featured-container-->
 		<div class="home-widget"><h3>Latest News</h3>
-
-			<ul class="category3">
+		<ul class="category3">
 							<li>
 										<div class="blog-image">
 						<a href="/2013/11/28/greening-australia-welcomes-everyone/" rel="bookmark" title="Greening Australia Welcomes Everyone"><img width="199" height="223" src="/wp-content/uploads/2013/11/greening-australia-sm-199x223.jpg" class="attachment-medium-thumb wp-post-image" alt="Greening Australia Welcomes Everyone" /></a>
@@ -146,7 +144,5 @@ layout: home
 						</ul>
 			<div class="nav-links">
 							</div><!--nav-links-->
-
-
-		</div>
+	</div>
 
