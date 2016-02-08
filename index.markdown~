@@ -693,7 +693,7 @@ layout: null
                   </li>
 
                   <li>
-                    <a href="{% post_url 2013-11-11-adding-green-to-your-kitchen %}" rel="bookmark"
+                    <a href="/2013/11/11/adding-green-to-your-kitchen/" rel="bookmark"
                     class="main-headline">Adding Green To Your Kitchen</a>
 
                     <p>House plants have always been a common feature of home...</p>
