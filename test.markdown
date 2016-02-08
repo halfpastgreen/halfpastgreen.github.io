@@ -1,5 +1,0 @@
----
-layout: page
-title: "Test Page"
----
-This is a <strong>test</strong> page.
