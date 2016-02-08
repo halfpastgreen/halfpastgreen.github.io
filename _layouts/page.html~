@@ -248,8 +248,7 @@ layout: default
             <div id="post-area">
               <div class="breadcrumb">
                 <div id="crumbs">
-                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <span class="current">About
-                  Us</span>
+                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <span class="current">About Us</span>
                 </div>
               </div><!--breadcrumb-->
 
