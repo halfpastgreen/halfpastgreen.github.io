@@ -266,7 +266,7 @@
 
           <div id="main-home">
             <div id="home-left">
-              <h3 class="category-heading">{{ page.title }}</h3>
+              <h3 class="category-heading">Environmental</h3>
 
               <div id="featured-container">
                 <div class="flexslider">
