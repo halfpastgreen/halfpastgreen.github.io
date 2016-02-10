@@ -20,3 +20,14 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  categories:
+    output: true
+    permalink: /:path/
+  tags:
+    output: true
+    permalink: /tag/:path/
+    layout: tag
+
+  
