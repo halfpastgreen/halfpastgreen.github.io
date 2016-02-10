@@ -265,14 +265,10 @@ layout: null
 
               {% assign author = site.authors | where:"slug", page.author  | first %}
 
-              {% for author1 in site.authors %}
-              <h2>{{ author1.name }} - {{ author1.url }}</h2>
-                {% endfor %}
-
               <div id="post-info">
                 <div id="post-info-left">
                   By <a href="{{ author.url }}" title="Posts by {{ author.name }}" rel=
-                  "author">{{ page.author }}{{ author.name }}</a> on November 11, 2013
+                  "author">{{ author.name }}</a> on November 11, 2013
                 </div><!--post-info-left-->
               </div><!--post-info-->
 
