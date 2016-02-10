@@ -2,7 +2,7 @@
 layout: post
 title: "Going Green - It's The Little Things"
 date:   2013-11-14 18:08:06 +1000
-author: "Elizabeth Hardie"
+author: ehardie
 tags: [jekyll,jekyll-test]
 ---
   <div class="post-image"><img width="300" height="336" src=

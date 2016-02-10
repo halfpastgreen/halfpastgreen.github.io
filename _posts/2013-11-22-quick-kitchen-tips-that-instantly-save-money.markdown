@@ -2,7 +2,7 @@
 layout: post
 title: "Quick Kitchen Tips That Instantly Save Money"
 date:   2013-11-22 18:08:06 +1000
-author: "Elizabeth Hardie"
+author: ehardie
 ---
   <div class="post-image"><img width="300" height="336" src=
   "/wp-content/uploads/2013/11/save-money-in-the-kitchen.jpg" class=

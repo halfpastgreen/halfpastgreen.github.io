@@ -2,7 +2,7 @@
 layout: post
 title: "Kicking the Can to Reduce Pollution"
 date:   2013-11-24 18:08:06 +1000
-author: "Elizabeth Hardie"
+author: ehardie
 ---				
   <div class="post-image"><img width="300" height="336" src=
   "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg" class=
