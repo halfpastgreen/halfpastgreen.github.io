@@ -3,7 +3,8 @@ layout: post
 title: "Greening Australia Welcomes Everyone"
 date:   2013-11-28 18:08:06 +1000
 author: ehardie
-image: "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
+image: "/wp-content/uploads/2013/11/greening-australia-sm.jpg"
+thumbnail: "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
 ---
   <div class="post-image"><img width="300" height="336" src=
   "/wp-content/uploads/2013/11/greening-australia-sm.jpg" class=
