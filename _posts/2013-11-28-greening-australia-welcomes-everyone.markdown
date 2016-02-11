@@ -5,17 +5,13 @@ date:   2013-11-28 18:08:06 +1000
 author: ehardie
 image: "/wp-content/uploads/2013/11/greening-australia-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
+excerpt_separator: <!--more-->
 ---
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/greening-australia-sm.jpg" class=
-  "attachment-post-thumb wp-post-image" alt=
-  "Greening Australia Welcomes Everyone" /></div><!--post-image-->
-
   <p>An organization that is truly passionate about &ldquo;protecting and restoring the
   health, diversity and productivity of the unique Australian landscapes&rdquo; is
   Greening Australia. Their mission is to involve the general community in the management
-  of vegetation to help protect Australia&rsquo;s unique landscapes and environment.</p>
-
+  of vegetation to<!--more--> help protect Australia&rsquo;s unique landscapes and environment.</p>
+   
   <blockquote>
     <p><span style="color: #333333;"><strong>Greening Australia is about doing practical
     things &hellip;</strong></span></p>

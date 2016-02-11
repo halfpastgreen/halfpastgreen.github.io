@@ -289,7 +289,13 @@ layout: null
               </div><!--social-box-->
 
               <div id="content-area">
-		{{ content }}
+
+                  <div class="post-image">
+                      <img width="300" height="336" src="{{ page.image }}" class="attachment-post-thumb wp-post-image" alt="{{ page.title }}" />
+                  </div><!--post-image-->
+
+		          {{ content }}
+
               </div><!--content-area-->
 
               <div class="post-tags">

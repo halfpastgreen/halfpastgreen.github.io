@@ -318,7 +318,7 @@
                                     <div class="archive-text">
                                         <a href="{{ post.url }}" class="main-headline">{{ post.title }}</a>
 
-                                        <p>This is a test</p>
+                                        <p>{{ post.excerpt | strip_html }}</p>
 
                                         <div class="headlines-info">
                                             <ul class="headlines-info">
