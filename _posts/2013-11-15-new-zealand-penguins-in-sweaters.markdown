@@ -5,15 +5,11 @@ date:   2013-11-15 18:08:06 +1000
 author: admin
 image: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-120x134.jpg"
+excerpt_separator: <!--more-->
 ---
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg" class=
-  "attachment-post-thumb wp-post-image" alt="penguins-in-sweaters-sm" /></div>
-  <!--post-image-->
-
   <p>On October 5, 2011, the cargo ship, Rena, ran aground off the Bay of Plenty in New
   Zealand, spilling 350 tons of oil into the ocean and creating the country&rsquo;s worst
-  environmental disaster in decades. Large areas of coastline were polluted and more than
+  environmental disaster in decades. Large areas<!--more--> of coastline were polluted and more than
   a thousand sea birds were killed. The native Blue Penguin population was especially
   affected.</p>
 

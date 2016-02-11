@@ -5,14 +5,11 @@ date:   2013-11-11 18:08:06 +1000
 author: admin
 image: "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kitchen-plants-sm-120x134.jpg"
+excerpt_separator: <!--more-->
 ---
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg" class=
-  "attachment-post-thumb wp-post-image" alt="Kitchen Greenery" /></div><!--post-image-->
-
   <p>House plants have always been a common feature of home decor but a popular trend in
   recent times is growing herbs and vegetables right in the kitchen so they are close at
-  hand when cooking. No more stumbling around the garden in the dark, trying to locate
+  hand when cooking. No more<!--more--> stumbling around the garden in the dark, trying to locate
   herbs to use for dinner.</p>
 
   <p>As well as convenience, studies suggest a number of health benefits to growing your

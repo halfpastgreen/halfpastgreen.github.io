@@ -5,15 +5,11 @@ date:   2013-11-22 18:08:06 +1000
 author: ehardie
 image: "/wp-content/uploads/2013/11/save-money-in-the-kitchen.jpg"
 thumbnail: "/wp-content/uploads/2013/11/save-money-in-the-kitchen-120x134.jpg"
+excerpt_separator: <!--more-->
 ---
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/save-money-in-the-kitchen.jpg" class=
-  "attachment-post-thumb wp-post-image" alt="Save Money In The Kitchen" /></div>
-  <!--post-image-->
-
   <p>Many people believe that adopting a greener lifestyle is going to cost more money.
   While this may be true in some areas, such as buying organic foods, there are many
-  green options available that will actually save money. Here are some simple ways to go
+  green options available that will actually save<!--more--> money. Here are some simple ways to go
   green and save money in the kitchen.</p>
 
   <p>The trick with changing some of your habits is to make several small changes rather

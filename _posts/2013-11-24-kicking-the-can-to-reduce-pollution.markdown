@@ -5,17 +5,13 @@ date:   2013-11-24 18:08:06 +1000
 author: ehardie
 image: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution-120x134.jpg"
+excerpt_separator: <!--more-->
 ---				
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg" class=
-  "attachment-post-thumb wp-post-image" alt=
-  "Kicking the can to reduce pollution" /></div><!--post-image-->
-
   <h3>On average, 266 cans and bottles become litter or landfill every second in
   Australia.</h3>
 
   <p>This represents 8 billion drink containers every year filling the tips or littering
-  our environment. We&rsquo;ve all seen them, in almost every place we go but it appears
+  our environment. We&rsquo;ve all seen them, in almost every place<!--more--> we go but it appears
   to be an insurmountable problem. Beverage containers remain in landfill for a very long
   time, kill wildlife and pollute our oceans. However, there is an organization
   that&rsquo;s doing something about eliminating the tossed can and you can get

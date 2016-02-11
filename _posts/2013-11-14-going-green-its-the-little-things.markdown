@@ -6,14 +6,11 @@ author: ehardie
 tags: [jekyll,jekyll-test]
 image: "/wp-content/uploads/2013/11/going-green-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/going-green-sm-120x134.jpg"
+excerpt_separator: <!--more-->
 ---
-  <div class="post-image"><img width="300" height="336" src=
-  "/wp-content/uploads/2013/11/going-green-sm.jpg" class=
-  "attachment-post-thumb wp-post-image" alt="Going Green" /></div><!--post-image-->
-
   <p>It seems such a big problem doesn&rsquo;t it, all the things we hear about climate
   change, global warming, loss of biodiversity, over-flowing landfills, over-use of
-  natural resources and the planet in danger. What can just one person possibly do that
+  natural resources and the planet in danger. What can just one person<!--more--> possibly do that
   is going make any difference?</p>
 
   <p>This was the mentality that I had when I started to take all the warnings seriously;
