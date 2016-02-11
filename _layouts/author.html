@@ -303,39 +303,31 @@
                             <h1>All posts by {{ page.name }}</h1>
 
                             <ul class="archive">
+
+                                {% assign posts = site.posts | where:"author", page.slug %}
+
+                                {% for post in posts %}
                                 <li>
                                     <div class="archive-image">
-                                        <a href="/2013/11/28/greening-australia-welcomes-everyone/" rel="bookmark" title="Greening Australia Welcomes Everyone">
-                                            <img width="120" height="134" src="/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
-                                                 class="attachment-small-thumb wp-post-image" alt="Greening Australia Welcomes Everyone" />
+                                        <a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                                            <img width="120" height="134" src="{{ post.image }}"
+                                                 class="attachment-small-thumb wp-post-image" alt="{{ post.title }}" />
                                         </a>
                                     </div><!--archive-image-->
 
                                     <div class="archive-text">
-                                        <a href="/2013/11/28/greening-australia-welcomes-everyone/" class="main-headline">Greening Australia Welcomes Everyone</a>
+                                        <a href="{{ post.url }}" class="main-headline">{{ post.title }}</a>
 
-                                        <p>
-                                            An organization that is truly passionate about &#8220;protecting
-                                            and restoring the health, diversity and productivity of the unique
-                                            Australian landscapes&#8221; is Greening Australia. Their mission is
-                                            to involve the general community in the management of vegetation
-                                            to...
-                                        </p>
+                                        <p>{{ post.excerpt }}</p>
 
                                         <div class="headlines-info">
                                             <ul class="headlines-info">
-                                                <li>Posted November 28, 2013</li>
-
-                                                <li class="comments-icon">
-                                                    <a href="/2013/11/28/greening-australia-welcomes-everyone/#comments">
-                                                        <span class="dsq-postid"
-                                                              rel="70 /?p=70">0</span>
-                                                    </a>
-                                                </li>
+                                                <li>Posted {{ page.date | date: '%B %d, %Y' }}</li>
                                             </ul>
                                         </div><!--headlines-info-->
                                     </div><!--archive-text-->
                                 </li>
+                                {% endfor %}
 
                                 <li>
                                     <div class="archive-image">
