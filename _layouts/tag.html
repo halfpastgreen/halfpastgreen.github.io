@@ -266,195 +266,38 @@
 
           <div id="main">
             <div id="post-area">
-              <h1>All posts tagged "featured"</h1>
+              <h1>All posts tagged "{{ page.title }}"</h1>
 
               <ul class="archive">
+
+                  {% assign posts = site.tags[page.type] %}
+
+                  {% for post in posts %}
                 <li>
                   <div class="archive-image">
-                    <a href="/2013/11/28/greening-australia-welcomes-everyone/" rel=
-                    "bookmark" title="Greening Australia Welcomes Everyone"><img width=
+                    <a href="{{ post.url }}" rel=
+                    "bookmark" title="{{ post.title }}"><img width=
                     "120" height="134" src=
-                    "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
+                    "{{ post.thumbnail }}"
                     class="attachment-small-thumb wp-post-image" alt=
-                    "Greening Australia Welcomes Everyone" /></a>
+                    "{{ post.title }}" /></a>
                   </div><!--archive-image-->
 
                   <div class="archive-text">
-                    <a href="/2013/11/28/greening-australia-welcomes-everyone/" class=
-                    "main-headline">Greening Australia Welcomes Everyone</a>
+                    <a href="{{ post.url }}" class=
+                    "main-headline">{{ post.title }}</a>
 
-                    <p>An organization that is truly passionate about &#8220;protecting
-                    and restoring the health, diversity and productivity of the unique
-                    Australian landscapes&#8221; is Greening Australia. Their mission is
-                    to involve the general community in the management of vegetation
-                    to...</p>
+                      <p>{{ post.excerpt | strip_html }}...</p>
 
                     <div class="headlines-info">
                       <ul class="headlines-info">
-                        <li>Posted November 28, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/28/greening-australia-welcomes-everyone/#comments"><span class="dsq-postid"
-                        rel="70 /?p=70">0</span></a></li>
+                        <li>Posted {{ post.date | date: '%B %d, %Y' }}</li>
                       </ul>
                     </div><!--headlines-info-->
                   </div><!--archive-text-->
                 </li>
+                  {% endfor %}
 
-                <li>
-                  <div class="archive-image">
-                    <a href="/2013/11/24/kicking-the-can-to-reduce-pollution/" rel=
-                    "bookmark" title="Kicking the Can to Reduce Pollution"><img width=
-                    "120" height="134" src=
-                    "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution-120x134.jpg"
-                    class="attachment-small-thumb wp-post-image" alt=
-                    "Kicking the can to reduce pollution" /></a>
-                  </div><!--archive-image-->
-
-                  <div class="archive-text">
-                    <a href="/2013/11/24/kicking-the-can-to-reduce-pollution/" class=
-                    "main-headline">Kicking the Can to Reduce Pollution</a>
-
-                    <p>On average, 266 cans and bottles become litter or landfill every
-                    second in Australia. This represents 8 billion drink containers every
-                    year filling the tips or littering our environment. We&#8217;ve all
-                    seen them, in almost every place...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>Posted November 24, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/24/kicking-the-can-to-reduce-pollution/#comments"><span class="dsq-postid"
-                        rel="62 /?p=62">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </div><!--archive-text-->
-                </li>
-
-                <li>
-                  <div class="archive-image">
-                    <a href="/2013/11/22/quick-kitchen-tips-that-instantly-save-money/"
-                    rel="bookmark" title=
-                    "Quick Kitchen Tips That Instantly Save Money"><img width="120"
-                    height="134" src=
-                    "/wp-content/uploads/2013/11/save-money-in-the-kitchen-120x134.jpg"
-                    class="attachment-small-thumb wp-post-image" alt=
-                    "Save Money In The Kitchen" /></a>
-                  </div><!--archive-image-->
-
-                  <div class="archive-text">
-                    <a href="/2013/11/22/quick-kitchen-tips-that-instantly-save-money/"
-                    class="main-headline">Quick Kitchen Tips That Instantly Save
-                    Money</a>
-
-                    <p>Many people believe that adopting a greener lifestyle is going to
-                    cost more money. While this may be true in some areas, such as buying
-                    organic foods, there are many green options available that will
-                    actually save...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>Posted November 22, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/22/quick-kitchen-tips-that-instantly-save-money/#comments">
-                        <span class="dsq-postid" rel="55 /?p=55">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </div><!--archive-text-->
-                </li>
-
-                <li>
-                  <div class="archive-image">
-                    <a href="/2013/11/15/new-zealand-penguins-in-sweaters/" rel=
-                    "bookmark" title="New Zealand Penguins in Sweaters"><img width="120"
-                    height="134" src=
-                    "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-120x134.jpg"
-                    class="attachment-small-thumb wp-post-image" alt=
-                    "penguins-in-sweaters-sm" /></a>
-                  </div><!--archive-image-->
-
-                  <div class="archive-text">
-                    <a href="/2013/11/15/new-zealand-penguins-in-sweaters/" class=
-                    "main-headline">New Zealand Penguins in Sweaters</a>
-
-                    <p>On October 5, 2011, the cargo ship, Rena, ran aground off the Bay
-                    of Plenty in New Zealand, spilling 350 tons of oil into the ocean and
-                    creating the country&#8217;s worst environmental disaster in decades.
-                    Large areas...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>Posted November 15, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/15/new-zealand-penguins-in-sweaters/#comments"><span class="dsq-postid"
-                        rel="50 /?p=50">1</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </div><!--archive-text-->
-                </li>
-
-                <li>
-                  <div class="archive-image">
-                    <a href="/2013/11/14/going-green-its-the-little-things/" rel=
-                    "bookmark" title=
-                    "Going Green &#8211; It&#8217;s The Little Things"><img width="120"
-                    height="134" src=
-                    "/wp-content/uploads/2013/11/going-green-sm-120x134.jpg" class=
-                    "attachment-small-thumb wp-post-image" alt="Going Green" /></a>
-                  </div><!--archive-image-->
-
-                  <div class="archive-text">
-                    <a href="/2013/11/14/going-green-its-the-little-things/" class=
-                    "main-headline">Going Green &#8211; It&#8217;s The Little Things</a>
-
-                    <p>It seems such a big problem doesn&#8217;t it, all the things we
-                    hear about climate change, global warming, loss of biodiversity,
-                    over-flowing landfills, over-use of natural resources and the planet
-                    in danger. What can just one person...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>Posted November 14, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/14/going-green-its-the-little-things/#comments"><span class="dsq-postid"
-                        rel="46 /?p=46">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </div><!--archive-text-->
-                </li>
-
-                <li>
-                  <div class="archive-image">
-                    <a href="/2013/11/11/adding-green-to-your-kitchen/" rel="bookmark"
-                    title="Adding Green To Your Kitchen"><img width="120" height="134"
-                    src="/wp-content/uploads/2013/11/kitchen-plants-sm-120x134.jpg"
-                    class="attachment-small-thumb wp-post-image" alt=
-                    "Kitchen Greenery" /></a>
-                  </div><!--archive-image-->
-
-                  <div class="archive-text">
-                    <a href="/2013/11/11/adding-green-to-your-kitchen/" class=
-                    "main-headline">Adding Green To Your Kitchen</a>
-
-                    <p>House plants have always been a common feature of home decor but a
-                    popular trend in recent times is growing herbs and vegetables right
-                    in the kitchen so they are close at hand when cooking. No more...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>Posted November 11, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/11/adding-green-to-your-kitchen/#comments"><span class=
-                        "dsq-postid" rel="33 /?p=33">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </div><!--archive-text-->
-                </li>
               </ul>
 
               <div class="nav-links"></div><!--nav-links-->
