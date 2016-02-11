@@ -3,6 +3,8 @@ layout: post
 title: "New Zealand Penguins in Sweaters"
 date:   2013-11-15 18:08:06 +1000
 author: admin
+image: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg"
+thumbnail: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-120x134.jpg"
 ---
   <div class="post-image"><img width="300" height="336" src=
   "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg" class=

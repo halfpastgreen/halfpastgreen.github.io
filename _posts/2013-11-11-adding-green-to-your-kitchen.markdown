@@ -3,6 +3,8 @@ layout: post
 title: "Adding Green To Your Kitchen"
 date:   2013-11-11 18:08:06 +1000
 author: admin
+image: "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg"
+thumbnail: "/wp-content/uploads/2013/11/kitchen-plants-sm-120x134.jpg"
 ---
   <div class="post-image"><img width="300" height="336" src=
   "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg" class=
