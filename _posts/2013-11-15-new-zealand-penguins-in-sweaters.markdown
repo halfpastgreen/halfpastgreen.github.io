@@ -5,7 +5,7 @@ date:   2013-11-15 18:08:06 +1000
 author: admin
 tags: 
  - featured
- - ticker"
+ - ticker
 image: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-120x134.jpg"
 excerpt_separator: <!--more-->
