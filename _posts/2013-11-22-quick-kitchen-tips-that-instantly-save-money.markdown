@@ -2,6 +2,7 @@
 layout: post
 title: "Quick Kitchen Tips That Instantly Save Money"
 date:   2013-11-22 18:08:06 +1000
+cat: around-the-house
 author: ehardie
 image: "/wp-content/uploads/2013/11/save-money-in-the-kitchen.jpg"
 thumbnail: "/wp-content/uploads/2013/11/save-money-in-the-kitchen-120x134.jpg"

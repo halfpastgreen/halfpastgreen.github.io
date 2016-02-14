@@ -2,6 +2,7 @@
 layout: post
 title: "Adding Green To Your Kitchen"
 date:   2013-11-11 18:08:06 +1000
+cat: around-the-house
 author: admin
 image: "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kitchen-plants-sm-120x134.jpg"

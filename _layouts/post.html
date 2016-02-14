@@ -41,11 +41,10 @@ layout: null
             "post-33 post type-post status-publish format-standard has-post-thumbnail hentry category-around-the-house tag-featured tag-ticker">
             <div class="breadcrumb">
                 <div id="crumbs">
-			1{{ page.categories.size }}2 {{ page.categories.size }}3
 
-		  {% assign cat = site.categories | where:"type", page.categories  | first %}
+ 		{% assign cat = site.categories | where:"type", page.cat  | first %}
 
-                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="{{ cat.url }}"
+                 <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="{{ cat.url }}"
                   title="View all posts in {{ cat.title }}">{{ cat.title }}</a> &nbsp;
                   &gt; &nbsp; <span class="current">{{ page.title }}</span>
                 </div>
