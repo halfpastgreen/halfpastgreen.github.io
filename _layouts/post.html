@@ -41,10 +41,10 @@ layout: null
             "post-33 post type-post status-publish format-standard has-post-thumbnail hentry category-around-the-house tag-featured tag-ticker">
             <div class="breadcrumb">
                 <div id="crumbs">
-{% for item in page.category %}
+{% for item in page.categories %}
     *{{ item }}*
 {% endfor %}
-			{{ page.category }}
+			{{ page.categories }}
 
 		  {% assign cat = site.categories | where:"type", page.category  | first %}
 
