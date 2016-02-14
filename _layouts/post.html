@@ -44,7 +44,7 @@ layout: null
 {% for item in page.categories %}
     *{{ item }}*
 {% endfor %}
-			{{ page.categories }}
+			{{ page.categories.size }}
 
 		  {% assign cat = site.categories | where:"type", page.category  | first %}
 
