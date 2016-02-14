@@ -41,8 +41,10 @@ layout: null
             "post-33 post type-post status-publish format-standard has-post-thumbnail hentry category-around-the-house tag-featured tag-ticker">
             <div class="breadcrumb">
                 <div id="crumbs">
-                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="/around-the-house/"
-                  title="View all posts in Around The House">Around The House</a> &nbsp;
+		  {% assign cat = site.collections.categories | where:"type", page.categories  | first %}
+
+                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="{{ cat.url }}"
+                  title="View all posts in {{ cat.title }}">{{ cat.title }}</a> &nbsp;
                   &gt; &nbsp; <span class="current">{{ page.title }}</span>
                 </div>
               </div><!--breadcrumb-->
