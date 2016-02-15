@@ -1,0 +1,27 @@
+<div id="featured-container">
+    <div class="flexslider">
+        <ul class="slides">
+
+            {% for post in widget-posts %}
+
+            <li>
+                <a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <img width="300" height="336" src="{{ post.image }}" class="attachment-slider-thumb wp-post-image" alt="{{ post.title }}" />
+                </a>
+
+                <div class="featured-box">
+                    <h2>
+                        <a href="{{ post.url }}">
+                            {{ post.title }}
+                        </a>
+                    </h2>
+
+                    <p>{{ post.excerpt | strip_html | truncatewords: 16 }}</p>
+                </div><!--featured-box-->
+            </li>
+
+            {% endfor %}
+
+        </ul>
+    </div><!--flexslider-->
+</div><!---featured-container-->

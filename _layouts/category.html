@@ -37,52 +37,14 @@
             <div id="home-left">
               <h3 class="category-heading">{{ page.title }}</h3>
 
-              <div id="featured-container">
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li>
-                      <a href="/2013/11/28/greening-australia-welcomes-everyone/" rel=
-                      "bookmark" title="Greening Australia Welcomes Everyone"><img width=
-                      "300" height="336" src=
-                      "/wp-content/uploads/2013/11/greening-australia-sm.jpg" class=
-                      "attachment-slider-thumb wp-post-image" alt=
-                      "Greening Australia Welcomes Everyone" /></a>
+                <!--image slider-->
+              {% assign widget-posts = site.posts %}
+              {% include image-slider.html %}
 
-                      <div class="featured-box">
-                        <h2><a href=
-                        "/2013/11/28/greening-australia-welcomes-everyone/">Greening
-                        Australia Welcomes Everyone</a></h2>
-
-                        <p>An organization that is truly passionate about
-                        &#8220;protecting and restoring the health, diversity and
-                        productivity of...</p>
-                      </div><!--featured-box-->
-                    </li>
-
-                    <li>
-                      <a href="/2013/11/24/kicking-the-can-to-reduce-pollution/" rel=
-                      "bookmark" title="Kicking the Can to Reduce Pollution"><img width=
-                      "300" height="336" src=
-                      "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg"
-                      class="attachment-slider-thumb wp-post-image" alt=
-                      "Kicking the can to reduce pollution" /></a>
-
-                      <div class="featured-box">
-                        <h2><a href=
-                        "/2013/11/24/kicking-the-can-to-reduce-pollution/">Kicking the
-                        Can to Reduce Pollution</a></h2>
-
-                        <p>On average, 266 cans and bottles become litter or landfill
-                        every second in Australia. This represents...</p>
-                      </div><!--featured-box-->
-                    </li>
-                  </ul>
-                </div><!--flexslider-->
-              </div><!---featured-container-->
-
+                <!--post list-->
               {% assign widget-title = "More News" %}
               {% assign widget-post-count = 3 %}
-	      {% assign widget-posts = site.posts | limit:3 %}
+	          {% assign widget-posts = site.posts %}
               {% include large-post-list.html %}
 
             </div><!--home-left-->
