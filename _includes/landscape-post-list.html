@@ -1,0 +1,27 @@
+              <div class="middle-widget">
+                <h3>{{ widget-title }}</h3>
+
+                <ul class="middle-widget">
+
+                  {% for post in widget-posts limit:widget-post-count %}
+
+                  <li>
+                    <a href="{{ post.url }}" rel=
+                    "bookmark" class="main-headline">{{ post.title }}</a>
+
+                    <p>{{ post.excerpt | strip_html | truncatewords: 10 }}</p>
+
+                    <div class="headlines-info">
+                      <ul class="headlines-info">
+                        <li>{{ post.date | date: '%B %d, %Y' }}</li>
+
+                        <li class="comments-icon"><a href=
+                        "{{ post.url }}#comments"><span class="dsq-postid"
+                        rel="70 /?p=70">0</span></a></li>
+                      </ul>
+                    </div><!--headlines-info-->
+                  </li>
+
+                  {% endfor %}
+                </ul>
+              </div>
