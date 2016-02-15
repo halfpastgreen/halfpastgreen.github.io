@@ -1,0 +1,40 @@
+              <div class="home-widget">
+                <h3>{{ widget-title }}</h3>
+
+                <ul class="category3">
+
+                  {% for post in widget-posts limit:widget-post-count %}
+
+                  <li>
+                    <div class="blog-image">
+                      <a href="{{ post.url }}" rel=
+                      "bookmark" title="{{ post.title }}"><img width=
+                      "199" height="223" src=
+                      "{{ post.image }}"
+                      class="attachment-medium-thumb wp-post-image" alt=
+                      "{{ post.title }}" /></a>
+                    </div><!--blog-image-->
+
+                    <div class="blog-text">
+                      <a href="{{ post.url }}" class=
+                      "main-headline">{{ post.title }}</a>
+
+                      <p>{{ post.excerpt | strip_html | truncatewords: 29 }}</p>
+
+                      <div class="headlines-info">
+                        <ul class="headlines-info">
+                          <li>{{ post.date | date: '%B %d, %Y' }}</li>
+
+                          <li class="comments-icon"><a href=
+                          "{{ post.url }}#comments"><span class="dsq-postid"
+                          rel="70 /?p=70">0</span></a></li>
+                        </ul>
+                      </div><!--headlines-info-->
+                    </div><!--blog-text-->
+                  </li>
+
+                  {% endfor %}
+                </ul>
+
+                <div class="nav-links"></div><!--nav-links-->
+              </div>

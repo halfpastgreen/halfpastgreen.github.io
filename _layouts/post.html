@@ -41,7 +41,6 @@ layout: null
             "post-33 post type-post status-publish format-standard has-post-thumbnail hentry category-around-the-house tag-featured tag-ticker">
             <div class="breadcrumb">
                 <div id="crumbs">
-	        {% assign myCollection = site.collections | where: "label", "categories" | first %}
  		{% assign cat = site.categories | where:"type", page.cat  | first %}
 
                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="{{ cat.url }}"

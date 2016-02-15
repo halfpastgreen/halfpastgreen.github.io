@@ -80,13 +80,11 @@
                 </div><!--flexslider-->
               </div><!---featured-container-->
 
-              <div class="home-widget">
-                <h3>More Environmental News</h3>
+              {% assign widget-title = "More News" %}
+              {% assign widget-post-count = 3 %}
+	      {% assign widget-posts = site.posts | limit:3 %}
+              {% include large-post-list.html %}
 
-                <ul class="category3"></ul>
-              </div><!--home-widget-->
-
-              <div class="nav-links"></div><!--nav-links-->
             </div><!--home-left-->
           </div><!--main -->
 
