@@ -1,0 +1,16 @@
+<div id="ticker">
+    <span class="ticker-heading">{{ widget-title }}</span>
+
+    <ul class="ticker-list">
+
+        {% for post in widget-posts %}
+
+        <li>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </li>
+
+        {% endfor %}
+    </ul>
+</div><!--ticker-->
