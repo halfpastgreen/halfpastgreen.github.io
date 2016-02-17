@@ -10,7 +10,7 @@
                             {% assign widget-posts = site.category-pages %}
                             {% for post in widget-posts %}
 
-                            <li id="menu-item-36" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36">
+                            <li id="menu-item-36" class="menu-item menu-item-type-taxonomy menu-item-object-category {% if page.url contains post.url %}current-menu-item{% endif %}">
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                             </li>
 

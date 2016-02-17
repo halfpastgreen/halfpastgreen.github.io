@@ -199,60 +199,6 @@ layout: null
                   </li>
                 </ul>
               </div>
-
-              <div id="disqus_thread"></div><script type="text/javascript">
-/* <![CDATA[ */
-              var disqus_url = '/2013/11/11/adding-green-to-your-kitchen/';
-              var disqus_identifier = '33 /?p=33';
-              var disqus_container_id = 'disqus_thread';
-              var disqus_domain = 'disqus.com';
-              var disqus_shortname = 'halfpastgreen';
-              var disqus_title = "Adding Green To Your Kitchen";
-              var disqus_config = function () {
-              var config = this; // Access to the config object
-              config.language = '';
-
-              /*
-              All currently supported events:
-              * preData  fires just before we request for initial data
-              * preInit - fires after we get initial data but before we load any dependencies
-              * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
-              * afterRender - fires when template is rendered but before we show it
-              * onReady - everything is done
-              */
-
-              config.callbacks.preData.push(function() {
-              // clear out the container (its filled for SEO/legacy purposes)
-              document.getElementById(disqus_container_id).innerHTML = '';
-              });
-                config.callbacks.onReady.push(function() {
-              // sync comments in the background so we don't block the page
-              var script = document.createElement('script');
-              script.async = true;
-              script.src = '?cf_action=sync_comments&post_id=33';
-
-              var firstScript = document.getElementsByTagName( "script" )[0];
-              firstScript.parentNode.insertBefore(script, firstScript);
-              });
-                    };
-              /* ]]> */
-              </script> <script type="text/javascript">
-/* <![CDATA[ */
-              var DsqLocal = {
-              'trackbacks': [
-              ],
-              'trackback_url': "http:\/\/127.0.0.1:4001\/wordpress\/2013\/11\/11\/adding-green-to-your-kitchen\/trackback\/"    };
-              /* ]]> */
-              </script> <script type="text/javascript">
-/* <![CDATA[ */
-              (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript';
-              dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-              /* ]]> */
-              </script>
             </div><!--post-area-->
           </div><!--main -->
 
@@ -384,52 +330,8 @@ layout: null
     {% include footer.html %}
 
   </div><!--site-->
-  <script type='text/javascript'>
-//<![CDATA[
-  jQuery(document).ready(function($){
-  $(window).load(function(){
-    $('.flexslider').flexslider({
-        animation: 'fade',
-        slideshowSpeed: 8000
-    });
-  });
 
-        var aboveHeight = $('#leader-wrapper').outerHeight();
-        $(window).scroll(function(){
-                if ($(window).scrollTop() > aboveHeight){
-                $('#nav').addClass('fixed-nav').css('top','0').next()
-                .css('padding-top','43px');
-                } else {
-                $('#nav').removeClass('fixed-nav').next()
-                .css('padding-top','0');
-                }
-        });
-
-  });
-  //]]>
-  </script><script type='text/javascript' src=
-  '/wp-includes/js/comment-reply.min.js?ver=3.9.3'>
-</script><script type='text/javascript' src=
-'/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'>
-</script><script type='text/javascript'>
-/* <![CDATA[ */
-  var _wpcf7 = {"loaderUrl":"http:\/\/127.0.0.1:4001\/wordpress\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
-  /* ]]> */
-  </script><script type='text/javascript' src=
-  '/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.8'>
-</script><script type='text/javascript' src=
-'/wp-content/themes/maxmag/theia-post-slider/js/tps.js?ver=1.0.8'>
-</script><script type="text/javascript">
-//<![CDATA[
-  jQuery(document).ready(function($){
-  $('.carousel').elastislide({
-        imageW  : 120,
-        minItems        : 2,
-        margin          : 10
-  });
-  });
-  //]]>
-  </script><script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
   //]]>
@@ -473,20 +375,6 @@ layout: null
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-  //]]>
-  </script><script type="text/javascript">
-//<![CDATA[
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-41835542-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
   //]]>
   </script>
 </body>
