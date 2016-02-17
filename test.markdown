@@ -15,11 +15,11 @@ layout: null
 {% endfor %}
 
 
-{% assign collections = site.authors %}
+{% assign collections = site.cats %}
 
 <h2>Category List</h2>
 <ul>
 {% for collection in collections %}
-<li>{{collection}}</li>
+<li>{{collection.title}}</li>
 {% endfor %}
 </ul>

@@ -22,7 +22,7 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-  categories:
+  cats:
     output: true
     permalink: /:path/
   tags:
