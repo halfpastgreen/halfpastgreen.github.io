@@ -52,48 +52,14 @@
 
           <div id="sidebar-home-wrapper">
             <div id="home-right">
-              <div class="middle-widget">
-                <h3>Latest News</h3>
 
-                <ul class="middle-widget">
-                  <li>
-                    <a href="/2013/11/28/greening-australia-welcomes-everyone/" rel=
-                    "bookmark" class="main-headline">Greening Australia Welcomes
-                    Everyone</a>
+              {% assign widget-post = site.posts | first %}
+              {% include middle-featured-post.html %}
 
-                    <p>An organization that is truly passionate about &#8220;protecting
-                    and restoring...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>November 28, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/28/greening-australia-welcomes-everyone/#comments"><span class="dsq-postid"
-                        rel="70 /?p=70">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </li>
-
-                  <li>
-                    <a href="/2013/11/24/kicking-the-can-to-reduce-pollution/" rel=
-                    "bookmark" class="main-headline">Kicking the Can to Reduce
-                    Pollution</a>
-
-                    <p>On average, 266 cans and bottles become litter or landfill...</p>
-
-                    <div class="headlines-info">
-                      <ul class="headlines-info">
-                        <li>November 24, 2013</li>
-
-                        <li class="comments-icon"><a href=
-                        "/2013/11/24/kicking-the-can-to-reduce-pollution/#comments"><span class="dsq-postid"
-                        rel="62 /?p=62">0</span></a></li>
-                      </ul>
-                    </div><!--headlines-info-->
-                  </li>
-                </ul>
-              </div>
+              {% assign widget-title = "Latest News" %}
+              {% assign widget-post-count = 3 %}
+              {% assign widget-posts = site.posts | limit:3 %}
+              {% include landscape-post-list.html %}
 
               <div class="middle-widget">
                 <div class="middle-160">

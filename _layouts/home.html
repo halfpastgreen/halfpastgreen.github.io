@@ -54,27 +54,13 @@ layout: null
 
           <div id="sidebar-home-wrapper">
             <div id="home-right">
-              <div class="middle-widget">
-                <div class="middle-160">
-                  <div class="image-contain">
-                    <a href="/2013/11/15/new-zealand-penguins-in-sweaters/" rel=
-                    "bookmark" title="New Zealand Penguins in Sweaters"><img width="199"
-                    height="223" src=
-                    "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-199x223.jpg"
-                    class="attachment-medium-thumb wp-post-image" alt=
-                    "penguins-in-sweaters-sm" /></a>
 
-                    <div class="image-box">
-                      <a href="/2013/11/15/new-zealand-penguins-in-sweaters/">New Zealand
-                      Penguins in Sweaters</a>
-                    </div><!--image-box-->
-                  </div><!--image-contain-->
-                </div>
-              </div>
+              {% assign widget-post = site.posts | first %}
+              {% include middle-featured-post.html %}
 
               {% assign widget-title = "Latest News" %}
               {% assign widget-post-count = 3 %}
-	      {% assign widget-posts = site.posts | limit:3 %}
+	          {% assign widget-posts = site.posts | limit:3 %}
               {% include landscape-post-list.html %}
 
               <div class="middle-widget">
