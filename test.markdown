@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-<h1>Test 3</h1>
+<h1>Test 4</h1>
 {% assign collections = site.collections | where:"label", "categories" %}
 
 {% for collection in collections %}
@@ -13,3 +13,13 @@ layout: null
     {% endfor %}
 </ul>
 {% endfor %}
+
+
+{% assign collections = site.categories %}
+
+<h2>Category List</h2>
+<ul>
+{% for collection in collections %}
+<li>{{collection}}</li>
+{% endfor %}
+</ul>
