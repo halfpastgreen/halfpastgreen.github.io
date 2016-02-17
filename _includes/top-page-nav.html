@@ -1,0 +1,18 @@
+<div id="header-info">
+    <div id="small-nav">
+        <div class="menu-secondary-menu-container">
+            <ul id="menu-secondary-menu" class="menu">
+
+                {% assign widget-posts = site.pages | sort:"topmenu" %}
+                {% for p in widget-posts %}
+                {% if p.topmenu > 0 %}
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div><!--small-nav-->
+</div><!--header-info-->
