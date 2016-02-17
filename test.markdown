@@ -8,8 +8,8 @@ layout: null
 <h2>{{collection}}</h2>
 <h2>{{collection.label}}</h2>
 <ul>
-    {% for file in collection.files %}
-    <li><a href="{{ file.path | remove: "_" }}">{{ file.path | remove: "_" }}</a></li>
+    {% for doc in collection.docs %}
+    <li><a href="{{ doc.path | remove: "_" }}">{{ doc.path | remove: "_" }}</a></li>
     {% endfor %}
 </ul>
 {% endfor %}
