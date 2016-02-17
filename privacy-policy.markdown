@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy"
+bottommenu: 2
 ---
 <p><b>Policies and Procedures</b></p>
 <p>(Last Updated: October 24th, 2013)</p>

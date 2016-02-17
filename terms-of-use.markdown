@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Terms of Service"
+bottommenu: 1
 ---
 <p>LIMITATION ON HALF PAST GREEN LIABILITY</p>
 <p>Half Past Green’s liability, whether in contract, tort, negligence, or otherwise, shall be limited in the aggregate to direct and actual damages not to exceed the fees received by Half Past Green from Subscriber. Half Past Green will not be liable for consequential, incidental, punitive, special, exemplary, or indirect damages resulting directly or indirectly from the use of or reliance upon any material provided by Half Past Green. Without limitation, Half Past Green shall not be responsible or liable for any loss or damages related to, either directly or indirectly, (1) any decline in market value or loss of any investment; (2) a subscriber’s inability to use or any delay in accessing the Half Past Green website or any other source of material provided by Half Past Green; (3) any absence of material on the Half Past Green website; (4) Half Past Green’ failure to deliver or delay in delivering any material or (5) any kind of error in transmission of material; or (6) the use by a subscriber of any research to invest in any way which may be deemed unsuitable in accordance with certain industry standards. Half Past Green and Subscriber acknowledge that, without limitation, the above-enumerated conditions cannot be the probable cause of any breach of any agreement between Half Past Green and Subscriber. “No-risk” and “risk-free” refer solely to the subscription price refund policy.</p>

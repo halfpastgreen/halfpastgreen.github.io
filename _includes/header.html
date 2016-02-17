@@ -10,13 +10,16 @@
                                 <div id="small-nav">
                                     <div class="menu-secondary-menu-container">
                                         <ul id="menu-secondary-menu" class="menu">
-                                            <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
-                                                <a href="/about-us/">About Us</a>
-                                            </li>
 
-                                            <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
-                                                <a href="/contact-us/">Contact Us</a>
-                                            </li>
+                                 {% assign widget-posts = site.pages | sort:"topmenu" %}
+                                 {% for p in widget-posts %}
+			         {% if p.topmenu > 0 %}
+                                 <li class="menu-item menu-item-type-post_type menu-item-object-page">                                     
+                                   <a href="{{ p.url }}">{{ p.title }}</a>   
+                                 </li>
+                                 {% endif %}
+                                 {% endfor %}
+
                                         </ul>
                                     </div>
                                 </div><!--small-nav-->
