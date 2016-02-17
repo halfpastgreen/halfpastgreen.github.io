@@ -2,7 +2,7 @@
 layout: null
 ---
 
-{% for collection in site.collections %}
+{% for collection in site.collections | where "label", "categories" %}
 {% unless collection.label == 'posts' %}
 <h2>{{collection.label}}</h2>
 <ul>
