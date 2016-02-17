@@ -1,8 +1,10 @@
 ---
 layout: null
 ---
-<h1>Test 1</h1>
-{% for collection in site.collections | where:"label", "categories" %}
+<h1>Test 2</h1>
+{% assign collections = site.collections | where:"label", "categories" %}
+
+{% for collection in collections %}
 {% unless collection.label == 'posts' %}
 <h2>{{collection.label}}</h2>
 <ul>
