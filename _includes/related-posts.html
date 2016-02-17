@@ -1,10 +1,8 @@
-{% assign widget-posts = site.related_posts limit:4 %}
-
 <div id="related-posts">
     <h3>Related Posts</h3>
 
     <ul>
-        {% for p in widget-posts %}
+        {% for p in site.related_posts limit:4 %}
         <li>
             <div class="related-image">
                 <a href="{{ p.url }}" rel="bookmark" title="{{ p.title }}">
