@@ -1,0 +1,28 @@
+{% assign widget-posts = site.related_posts | limit:4 %}
+
+<div id="related-posts">
+    <h3>Related Posts</h3>
+
+    <ul>
+        {% for p in widget-posts %}
+        <li>
+            <div class="related-image">
+                <a href="{{ p.url }}" rel="bookmark" title="{{ p.title }}">
+                    <img width="199" height="223" src="{{ p.image }}"
+                         class="attachment-medium-thumb wp-post-image" alt="{{ p.title }}" />
+                </a>
+
+                <div class="related-text">
+                    <a href="{{ p.url }}">
+                        {{ p.title }}
+                    </a>
+                </div><!--related-text-->
+            </div><!--related-image-->
+
+            <div class="related-small">
+                <a href="{{ p.url }}" class="main-headline">{{ p.title }}</a>
+            </div><!--related-small-->
+        </li>
+        {% endfor %}
+    </ul>
+</div>
