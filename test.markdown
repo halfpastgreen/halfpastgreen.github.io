@@ -15,7 +15,7 @@ layout: null
 {% endfor %}
 
 
-{% assign collections = site.categories %}
+{% assign collections = site.authors %}
 
 <h2>Category List</h2>
 <ul>
