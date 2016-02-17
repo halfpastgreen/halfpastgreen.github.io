@@ -2,7 +2,7 @@
 layout: null
 ---
 <h1>Test 4</h1>
-{% assign collections = site.collections | where:"label", "categories" %}
+{% assign collections = site.collections | where:"label", "cats" %}
 
 {% for collection in collections %}
 <h2>{{collection}}</h2>
