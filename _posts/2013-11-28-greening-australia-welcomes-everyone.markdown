@@ -2,10 +2,11 @@
 layout: post
 title: "Greening Australia Welcomes Everyone"
 date:   2013-11-28 18:08:06 +1000
-cat: environmental
+categories: environmental
 author: ehardie
 image: "/wp-content/uploads/2013/11/greening-australia-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
+tags: [featured, ticker]
 excerpt_separator: <!--more-->
 ---
   <p>An organization that is truly passionate about &ldquo;protecting and restoring the

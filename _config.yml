@@ -22,13 +22,13 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-  cats:
+  category-pages:
     output: true
     permalink: /:path/
-  tags:
+  tag-pages:
     output: true
     permalink: /tag/:path/
-  authors:
+  author-pages:
     output: true
     permalink: /author/:path/
 

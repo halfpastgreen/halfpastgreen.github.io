@@ -1,0 +1,12 @@
+              {% if page.tags.size > 0 %}
+              <div class="post-tags">
+                {% for tag in page.tags %}
+ 		{% assign tag-page = site.tag-pages | where:"type", tag | first %}
+
+                <a href="{{ tag-page.url }}" rel="nofollow tag">{{ tag }}</a>
+                {% endfor %}
+              </div><!--post-tags-->
+              {% endif %}
+
+
+

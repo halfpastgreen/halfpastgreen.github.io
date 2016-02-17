@@ -41,7 +41,8 @@ layout: null
             "post-33 post type-post status-publish format-standard has-post-thumbnail hentry category-around-the-house tag-featured tag-ticker">
             <div class="breadcrumb">
                 <div id="crumbs">
- 		{% assign cat = site.cats | where:"type", page.cat  | first %}
+ 		{% assign pcat = page.categories | first %}
+ 		{% assign cat = site.category-pages | where:"type", pcat | first %}
 
                  <a href="/">Home</a> &nbsp; &gt; &nbsp; <a href="{{ cat.url }}"
                   title="View all posts in {{ cat.title }}">{{ cat.title }}</a> &nbsp;
@@ -51,7 +52,7 @@ layout: null
 
               <h1 class="headline">{{ page.title }}</h1>
 
-              {% assign author = site.authors | where:"slug", page.author  | first %}
+              {% assign author = site.author-pages | where:"slug", page.author  | first %}
 
               <div id="post-info">
                 <div id="post-info-left">
@@ -86,10 +87,7 @@ layout: null
 
               </div><!--content-area-->
 
-              <div class="post-tags">
-                <a href="/tag/featured/" rel="nofollow tag">featured</a><a href=
-                "/tag/ticker/" rel="nofollow tag">ticker</a>
-              </div><!--post-tags-->
+              {% include post-tags.html %}
 
               <div id="social-box">
                 <ul class="post-social-horz">

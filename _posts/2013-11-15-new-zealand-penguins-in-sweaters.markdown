@@ -2,7 +2,7 @@
 layout: post
 title: "New Zealand Penguins in Sweaters"
 date:   2013-11-15 18:08:06 +1000
-cat: our-animals
+categories: our-animals
 author: admin
 tags: 
  - featured

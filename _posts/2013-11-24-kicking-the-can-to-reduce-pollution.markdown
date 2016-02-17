@@ -2,10 +2,11 @@
 layout: post
 title: "Kicking the Can to Reduce Pollution"
 date:   2013-11-24 18:08:06 +1000
-cat: environmental
+categories: environmental
 author: ehardie
 image: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution-120x134.jpg"
+tags: [ticker]
 excerpt_separator: <!--more-->
 ---				
   <h3>On average, 266 cans and bottles become litter or landfill every second in
