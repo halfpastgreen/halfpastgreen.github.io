@@ -44,7 +44,7 @@
                 <!--post list-->
               {% assign widget-title = "More News" %}
               {% assign widget-post-count = 3 %}
-	          {% assign widget-posts = site.posts %}
+	          {% assign widget-posts = site.categories.[page.type] %}
               {% include large-post-list.html %}
 
             </div><!--home-left-->
