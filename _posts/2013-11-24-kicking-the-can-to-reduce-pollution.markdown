@@ -8,8 +8,7 @@ image: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kicking-the-can-to-reduce-pollution-120x134.jpg"
 tags: [ticker]
 excerpt_separator: <!--more-->
-redirect_from:
-  - /2013/11/24/kicking-the-can-to-reduce-pollution/
+redirect_from: /2013/11/24/kicking-the-can-to-reduce-pollution/
 ---				
   <h3>On average, 266 cans and bottles become litter or landfill every second in
   Australia.</h3>

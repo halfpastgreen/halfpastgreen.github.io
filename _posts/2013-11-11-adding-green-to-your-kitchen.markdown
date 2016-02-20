@@ -8,8 +8,6 @@ image: "/wp-content/uploads/2013/11/kitchen-plants-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/kitchen-plants-sm-120x134.jpg"
 tags: [featured, ticker]
 excerpt_separator: <!--more-->
-redirect_from:
-  - /2013/11/11/adding-green-to-your-kitchen/
 ---
   <p>House plants have always been a common feature of home decor but a popular trend in
   recent times is growing herbs and vegetables right in the kitchen so they are close at

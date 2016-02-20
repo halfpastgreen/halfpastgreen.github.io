@@ -8,8 +8,7 @@ tags: [jekyll,jekyll-test]
 image: "/wp-content/uploads/2013/11/going-green-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/going-green-sm-120x134.jpg"
 excerpt_separator: <!--more-->
-redirect_from:
-  - /2013/11/14/going-green-its-the-little-things/
+redirect_from: /2013/11/14/going-green-its-the-little-things/
 ---
   <p>It seems such a big problem doesn&rsquo;t it, all the things we hear about climate
   change, global warming, loss of biodiversity, over-flowing landfills, over-use of
