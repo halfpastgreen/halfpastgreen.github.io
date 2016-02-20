@@ -32,4 +32,6 @@ collections:
     output: true
     permalink: /author/:path/
 
-  
+  gems:
+  - jekyll-redirect-from
+

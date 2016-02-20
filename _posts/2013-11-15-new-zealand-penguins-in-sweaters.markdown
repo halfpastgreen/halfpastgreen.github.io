@@ -10,6 +10,8 @@ tags:
 image: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/penguins-in-sweaters-sm-120x134.jpg"
 excerpt_separator: <!--more-->
+redirect_from:
+  - /2013/11/15/new-zealand-penguins-in-sweaters/
 ---
   <p>On October 5, 2011, the cargo ship, Rena, ran aground off the Bay of Plenty in New
   Zealand, spilling 350 tons of oil into the ocean and creating the country&rsquo;s worst

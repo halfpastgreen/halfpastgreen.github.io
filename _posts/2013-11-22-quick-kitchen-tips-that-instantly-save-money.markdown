@@ -7,6 +7,8 @@ author: ehardie
 image: "/wp-content/uploads/2013/11/save-money-in-the-kitchen.jpg"
 thumbnail: "/wp-content/uploads/2013/11/save-money-in-the-kitchen-120x134.jpg"
 excerpt_separator: <!--more-->
+redirect_from:
+  - /2013/11/22/quick-kitchen-tips-that-instantly-save-money/
 ---
   <p>Many people believe that adopting a greener lifestyle is going to cost more money.
   While this may be true in some areas, such as buying organic foods, there are many

@@ -8,6 +8,8 @@ image: "/wp-content/uploads/2013/11/greening-australia-sm.jpg"
 thumbnail: "/wp-content/uploads/2013/11/greening-australia-sm-120x134.jpg"
 tags: [featured, ticker]
 excerpt_separator: <!--more-->
+redirect_from:
+  - /2013/11/28/greening-australia-welcomes-everyone/
 ---
   <p>An organization that is truly passionate about &ldquo;protecting and restoring the
   health, diversity and productivity of the unique Australian landscapes&rdquo; is
