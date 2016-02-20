@@ -46,7 +46,7 @@ layout: null
               <!--post list-->
               {% assign widget-title = "Latest News" %}
               {% assign widget-post-count = 3 %}
-	          {% assign widget-posts = site.posts | limit:3 %}
+	      {% assign widget-posts = site.posts | limit:3 %}
               {% include large-post-list.html %}
 
             </div><!--home-left-->
@@ -68,7 +68,9 @@ layout: null
             </div><!--home-right-->
 
             <div class="side-home">
-                {% include sidebar.html %}
+              {% include sidebar-widget-adwords.html %}
+              {% include sidebar-widget-posts.html %}
+              {% include sidebar-widget-social-media.html %}
             </div><!--side-home-->
           </div><!--sidebar-home-wrapper-->
 
