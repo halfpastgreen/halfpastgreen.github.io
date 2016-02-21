@@ -56,14 +56,14 @@ layout: null
             <div id="home-right">
 
               {% assign widget-post = site.posts | first %}
-              {% include middle-featured-post.html %}
+              {% include widgets/middle-sidebar/featured-post.html %}
 
               {% assign widget-title = "Latest News" %}
               {% assign widget-post-count = 3 %}
 	          {% assign widget-posts = site.posts | limit:3 %}
-              {% include landscape-post-list.html %}
+              {% include widgets/middle-sidebar/post-list.html %}
 
-              {% include middle-adwords.html %}
+              {% include widgets/middle-sidebar/adwords.html %}
 
             </div><!--home-right-->
 
