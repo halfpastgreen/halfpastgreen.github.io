@@ -44,7 +44,7 @@
 
                   <div id="tab2" class="tabber-content">
                     <ul>
-                      {% for post in site.posts limit:3 %}
+                      {% for post in site.posts offset:3 limit:3 %}
 
                       <li>
                         <div class="tabber-image">
